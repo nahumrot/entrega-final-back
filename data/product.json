@@ -1,0 +1,18 @@
+[
+  {
+    "id": "b47ce055-6600-4bad-9324-b08f350b6163",
+    "title": "lapiz",
+    "description": "azul",
+    "code": 1,
+    "price": "l00",
+    "stock": 10
+  },
+  {
+    "id": "f593f23b-0130-492b-94d0-7d4c33702e4e",
+    "title": "computadora",
+    "description": "mac",
+    "code": 2,
+    "price": "l00.000",
+    "stock": 2
+  }
+]

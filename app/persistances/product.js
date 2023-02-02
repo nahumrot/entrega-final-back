@@ -10,7 +10,8 @@ module.exports = {
 
                 if (productsList.find((item) => item.code === product.code)) {
                     resolve('Product code already exists')
-                } else if (
+                }
+                 else if (
                     !!!product.title ||
                     !!!product.price ||
                     !!!product.code ||
@@ -18,7 +19,8 @@ module.exports = {
                     !!!product.stock
                 ) {
                     resolve('some data is required') 
-                } else {
+                }
+                 else {
                     product.id = uuidv4()
                     fs.writeFileSync(`./data/product.json`, JSON.stringify([...productsList, product], null, 2))
                     resolve(product)
